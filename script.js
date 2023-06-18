@@ -17,9 +17,7 @@ function divide(first, second){
     return parseFloat((first / second).toFixed(2));
 }
 
-let firstNumber;
-let secondNumber;
-let operator;
+let storedNumbers = {};
 
 function operate(num1, num2, operator){
     if(operator === "+"){
@@ -32,3 +30,10 @@ function operate(num1, num2, operator){
         return divide(num1, num2);
     }
 }
+
+const topDisplay = document.querySelector(".top");
+const bottomDisplay = document.querySelector(".bottom");
+const numberButtons = document.querySelectorAll(".number");
+const operatorButtons = document.querySelectorAll(".operator");
+const enter = document.querySelector("#enter");
+const clear = document.querySelector("#clear");
