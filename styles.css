@@ -32,24 +32,15 @@ html{
     border-radius: 5px;
     margin-bottom: 35px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
     padding: 5px 10px;
 }
 
-.top,
 .bottom{
     font-family: Orbitron;
     color: white;
-}
-
-.top{
-    font-size: 15px;
-}
-
-.bottom{
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .button-row{
