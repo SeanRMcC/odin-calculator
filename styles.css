@@ -58,3 +58,7 @@ button{
     font-size: 35px;
     font-family: Orbitron;
 }
+
+button:hover{
+    opacity: 0.65;
+}
